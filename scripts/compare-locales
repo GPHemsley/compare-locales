@@ -51,7 +51,7 @@ parser = OptionParser(usage = usage, version = "%%prog %s" % version)
 parser.add_option('-v', '--verbose', action='count', dest='v', default=0,
                   help='Make more noise')
 parser.add_option('-q', '--quiet', action='count', dest='q', default=0,
-                  help='Make more noise')
+                  help='Make less noise')
 parser.add_option('-r', '--reference', default='en-US', dest='reference',
                   help='Explicitly set the reference '+
                   'localization. [default: en-US]')
